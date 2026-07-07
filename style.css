@@ -144,6 +144,28 @@ body {
   border-radius: 4px;
 }
 
+/* ---- Skin: Neon (fondo negro reforzado) ---- */
+body.skin-neon #board,
+body.skin-neon #next-canvas {
+  background: #000;
+}
+
+/* ---- Selector de skin ---- */
+#skin-select {
+  background: var(--kbd-bg);
+  border: 1px solid var(--kbd-border);
+  border-radius: 4px;
+  color: var(--kbd-color);
+  font-family: inherit;
+  font-size: 12px;
+  padding: 6px 8px;
+  cursor: pointer;
+}
+
+#skin-select:hover {
+  background: var(--board-bg);
+}
+
 /* ---- Controles ---- */
 .controls ul {
   list-style: none;
